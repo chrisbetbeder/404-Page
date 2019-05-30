@@ -1,0 +1,51 @@
+body{
+    background-color: #74b9ff;
+    font-family: "Source code pro", Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+img{
+    border-radius: 7px;
+}
+p{
+    font-size:20px;
+}
+div:hover
+{
+    animation: movemydiv 2s linear alternate infinite; 
+}
+
+@keyframes movemydiv {
+    from {
+        transform: translateX(0px);
+    }
+    30%{
+        transform: translateX(150px);
+    }
+    60%{
+        transform: translateX(150px) rotate(30deg);
+    }
+    80%{
+        transform: translateX(100px, 80px) rotate(30deg);
+    }
+    to{
+        transform: translate(100px,80px) rotate (30deg);
+        border-radius: 30px;
+        background-color: #fd79a8;
+    }
+}
+
+div
+{
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: #636e72;
+}
+
+div:hover
+{
+    animation: movemydiv 2s linear alternate infinite;
+}
